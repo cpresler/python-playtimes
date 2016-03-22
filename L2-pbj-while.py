@@ -1,5 +1,5 @@
 # Goal 1:
-bread = 20
+bread = 10
 peanut_butter = 8
 jelly = 10
 sandwiches = bread/2
@@ -10,6 +10,9 @@ if(sandwiches > jelly and jelly <= peanut_butter):
 	sandwiches = jelly
 elif(sandwiches > peanut_butter and peanut_butter <= jelly):
 	sandwiches = peanut_butter
+elif(sandwiches == 0):
+	print "Blarg, I've got no lunch!"
+
 
 
 while sandwiches > 0:
